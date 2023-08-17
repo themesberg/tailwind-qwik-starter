@@ -5,7 +5,6 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
-import 'flowbite';
 
 import "./global.css";
 import { initFlowbite } from "flowbite";
