@@ -7,7 +7,7 @@ import Starter from "~/components/starter/next-steps/next-steps";
 export default component$(() => {
   return (
     <>
-      <p class="text-center"><a href="/test/" class="text-blue-600 hover:underline">Go back to homepage.</a></p>
+      <p class="text-center"><a href="/" class="text-blue-600 hover:underline">Go back to homepage.</a></p>
       <Hero />
       <Starter />
 
