@@ -1,15 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
-import Counter from "~/components/starter/counter/counter";
 import Hero from "~/components/starter/hero/hero";
-import Infobox from "~/components/starter/infobox/infobox";
 import Starter from "~/components/starter/next-steps/next-steps";
 
 export default component$(() => {
   return (
     <>
-      <p class="text-center"><a href="/test/" class="text-blue-600 hover:underline">Go to another test page</a></p>
+      <p class="text-center"><a href="/test/" class="text-blue-600 hover:underline">Go back to homepage.</a></p>
       <Hero />
       <Starter />
 

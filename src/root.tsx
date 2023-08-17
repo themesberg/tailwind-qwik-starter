@@ -18,7 +18,7 @@ export default component$(() => {
    * Don't remove the `<head>` and `<body>` elements.
    */
 
-  useVisibleTask$(({ track }) => {
+  useVisibleTask$(() => {
     initFlowbite();
   });
 
