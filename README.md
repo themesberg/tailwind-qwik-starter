@@ -1,10 +1,8 @@
-# Qwik City App ⚡️
+# Tailwind CSS starter project with Qwik and Flowbite
 
-- [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
-- [Qwik GitHub](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+This repository is a free and open-source starter project that has Tailwind CSS, Flowbite, and Qwik preconfigured so you can instantly leverage the utility-first classes from Tailwind CSS, the UI components from Flowbite and the framework structure from Qwik.
+
+A guide has been published on the [Flowbite Documentation](https://flowbite.com/docs/getting-started/qwik/) for more information.
 
 ---
 
