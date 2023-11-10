@@ -39,6 +39,6 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "flowbite": "^2.0.0"
+    "flowbite": "^2.1.1"
   }
 }
