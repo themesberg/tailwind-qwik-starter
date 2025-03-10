@@ -1,10 +1,18 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "Demo App with Routing built-in (recommended)",
+  "name": "tailwind-qwik-starter",
+  "version": "1.0.0",
+  "description": "A free and open-source starter project to help you get started with the core Flowbite Library components and Qwik",
+  "license": "MIT",
+  "repository": "https://github.com/themesberg/tailwind-qwik-starter",
+  "homepage": "https://flowbite.com/docs/getting-started/qwik/",
+  "contributors": [
+    "Zoltán Szőgyényi (https://x.com/zoltanszogyenyi)"
+  ],
   "engines": {
-    "node": ">=15.0.0"
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
-  "private": true,
+  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
+  "type": "module",
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
@@ -21,24 +29,24 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.2.7",
-    "@builder.io/qwik-city": "^1.2.7",
-    "@types/eslint": "8.44.1",
-    "@types/node": "^20.4.5",
-    "@typescript-eslint/eslint-plugin": "6.2.0",
-    "@typescript-eslint/parser": "6.2.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "8.45.0",
-    "eslint-plugin-qwik": "^1.2.7",
-    "postcss": "8.4.27",
-    "prettier": "3.0.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.1.6",
-    "undici": "5.22.1",
-    "vite": "4.4.7",
-    "vite-tsconfig-paths": "4.2.0"
+    "@builder.io/qwik": "^1.12.1",
+    "@builder.io/qwik-city": "^1.12.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/eslint": "8.56.10",
+    "@types/node": "20.14.11",
+    "@typescript-eslint/eslint-plugin": "7.16.1",
+    "@typescript-eslint/parser": "7.16.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-qwik": "^1.12.1",
+    "prettier": "3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.0",
+    "typescript": "5.4.5",
+    "undici": "*",
+    "vite": "5.3.5",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "flowbite": "^2.1.1"
+    "flowbite": "^3.1.2"
   }
 }
